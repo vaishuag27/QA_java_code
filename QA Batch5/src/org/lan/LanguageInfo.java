@@ -1,22 +1,60 @@
 package org.lan;
 
+
 public class LanguageInfo 
 {
-  public void tamilLanguage() 
+	String language;  
+	  public String getLanguage;
+	  {  
+	}  
+	public String tamilLanguage;
+	public String englishLanguage;
+	public String hindiLanguage;
+	
+	public void setLanguage(String language)
+	{  
+	    this.language = language;  
+	}  
+	public String getlanguage()
+	{  
+	    return language;  
+	}
+		class StateDetails
+		{  
+			String language;  
+		  public String getState() 
+		  {  
+		    return (getState()); 
+		   
+		}  
+		 private void northIndia()
+		 {
+			 
+		 }
+         private void southIndia()
+         {
+        	 
+         }
+         public void setLanguage(String language)
+     	{  
+     	    this.language = language;  
+     	}  
+     	public String getlanguage()
+     	{  
+     	    return language;  
+     	}
+  public void main(String[] args)
   {
-  }
-  public void englishLanguage() 
-  {
-  }
-  public void hindiLanguage()
-  {
-  }
-  public static void main(String[] args)
-  {
-	  LanguageInfo lan=new LanguageInfo();
-	  lan.englishLanguage();
-	  lan.hindiLanguage();
-	  lan.tamilLanguage();
-  }
+      StateDetails state = new StateDetails();
+      state.northIndia();
+      state.southIndia();
+      
+      LanguageInfo lan = new LanguageInfo();
+      lang.getLanguage();
+      lang.tamilLanguage();
+      lang.englishLanguage();
+      lang.hindiLanguage();
+      System.out.println(language);
+     }         
 }
-
+}
